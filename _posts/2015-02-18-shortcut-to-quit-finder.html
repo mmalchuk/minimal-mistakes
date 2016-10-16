@@ -1,0 +1,28 @@
+---
+layout: post
+title: Shortcut to Quit Finder
+date: 2015-02-18 14:59:06.000000000 +03:00
+type: post
+published: true
+status: publish
+categories:
+- MacOS
+tags:
+- finder
+- macos
+meta:
+  _edit_last: '1'
+author:
+  login: admin
+  email: maksim@malchuk.ru
+  display_name: Maksim Malchuk
+  first_name: Maksim
+  last_name: Malchuk
+---
+{% highlight console %}
+$ defaults write com.apple.finder QuitMenuItem -bool YES
+test
+$ killall Finder
+tes2
+# 
+{% endhighlight %}
