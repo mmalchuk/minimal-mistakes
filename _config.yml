@@ -1,19 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale                   : "ru-RU"
+title                    : "My Technical Blog"
+title_separator          : "|"
+name                     : "Maksim Malchuk"
+description              : "My Technical Blog"
+url                      : "https://mmalchuk.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "mmalchuk/mmalchuk.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -55,9 +48,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "mmalchuk"
 facebook:
-  username               :
+  username               : "maksim.malchuk"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -77,30 +70,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Maksim Malchuk"
+  avatar           : "mmalchuk.jpg"
+  bio              : "Software Engineer, Small Business Owner, and Father"
+  location         : "Engels, Russia"
   email            :
-  uri              :
+  uri              : "https://malchuk.ru"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://fb.com/maksim.malchuk"
   foursquare       :
-  github           :
+  github           : "https://github.com/mmalchuk"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://linkedin.com/in/mmalchuk"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/mmalchuk"
   vine             :
   weibo            :
   xing             :
